@@ -23,3 +23,5 @@ You would see the appropriate responses from the server in your chatbox, its pre
 I have only been banned trying to modify stats. You can do other things and not be banned. You can even modify the minigames code, and enable alot of debugging logs. You can use the Lua Engine to make yourself a CSR (customer support) account that can run commands like this though, they've already made the code, you just need to port it and change it around.
 
 The game knows when your wad is corrupt and crashes when you try to continue with the tutorial, this is why I had to build it into the SkipTutorial() function and thus being one of only vulnerable positions to inject. 
+
+I would use a VPN, Mac Spoofer, and a HWID spoof doing this as it seems they've at least banned my Mac and IP.
