@@ -20,7 +20,7 @@ Server("AddSpell", "Thunder Snake");
 
 You would see the appropriate responses from the server in your chatbox, its pretty neat. You will then be swiftly banned. If you don't see a skip tutorial button, hit continue and let the game crash and try again, it will be there.
 
-I have only been banned trying to modify stats. You can do other things and not be banned. You can even modify the minigames code, and enable alot of debugging logs. You can use the Lua Engine to make yourself a CSR (customer support) account that can run commands like this though, they've already left us with the code to write to the database, you just need to port it and change it around.
+I have only been banned trying to modify stats. You can do other things and not be banned. You can even modify the minigames code, and enable alot of debugging logs.
 
 The game knows when your wad is corrupt and crashes when you try to continue with the tutorial, this is why I had to build it into the SkipTutorial() function and thus being one of only vulnerable positions to inject. 
 
