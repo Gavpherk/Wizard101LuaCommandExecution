@@ -3,16 +3,17 @@ Simple wizard101 Lua RCE method.
 This method is detected, and will get you banned. But you can still Execute your own Lua code, and communicate with the server with Lua. I recommend reading through other scripts in the scripts folder to get a better idea of what you can do.
 
 1. Backup Root.wad
-2. Decompile Root.wad with WizWadWiz.exe (https://github.com/11a10318/WizWadWiz/releases/tag/0.6.1)
-2. Navigate to the Tutorials folder, and then into the API folder.
-3. Open up TutorialUtility.lua and scroll down to the bottom.
-4. Find the SkipTutorial() function. 
-5. Your if statments to RCE with are at lines 797, 799 and 806.
-6. Use WizWadWiz.exe to recompile your wad
-7. Navigate to your GameData folder and drop your modified Root.wad in
-8. Navigate to your installation bin folder and create a file named log.txt 
-9. Next, open the game bypassing the patch client by navigating to your installation bin folder in command prompt and typing the command "WizardGraphicalClient.exe -l login.us.wizard101.com 12000 -P 1 -K 1 -M 1 -EF_OVERFLOW -EF_UNDERFLOW -G log.txt" -- not all these paramaters are neccesary, but they worked, and have since remained my control paramaters for whatever tests I run, it just enables some backround debugging features. And will generate a log to your file your created earlier. 
-10. Once your logged in, create a new character. start the tutorial, when you reach the owl press the skip tutorial button, and for example if your code you wanted to run was
+2. Create log.txt in bin folder
+3. Decompile Root.wad with WizWadWiz.exe (https://github.com/11a10318/WizWadWiz/releases/tag/0.6.1)
+4. Navigate to the Tutorials folder, and then into the API folder.
+5. Open up TutorialUtility.lua and scroll down to the bottom.
+6. Find the SkipTutorial() function. 
+7. Your if statments to RCE with are at lines 797, 799 and 806.
+8. Use WizWadWiz.exe to recompile your wad
+9. Navigate to your GameData folder and drop your modified Root.wad in
+10. Navigate to your installation bin folder and create a file named log.txt 
+11. Next, open the game bypassing the patch client by navigating to your installation bin folder in command prompt and typing the command "WizardGraphicalClient.exe -l login.us.wizard101.com 12000 -P 1 -K 1 -M 1 -EF_OVERFLOW -EF_UNDERFLOW -G log.txt" -- not all these paramaters are neccesary, but they worked, and have since remained my control paramaters for whatever tests I run, it just enables some backround debugging features. And will generate a log to your file your created earlier. 
+12. Once your logged in, create a new character. start the tutorial, when you reach the owl press the skip tutorial button, and for example if your code you wanted to run was
 
 Server("SetLevel", "120");
 Server("SetPrimarySchool", "Storm");
