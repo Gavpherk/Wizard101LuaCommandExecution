@@ -12,7 +12,7 @@ This method is detected, and will get you banned. But you can still Execute your
 8. Use WizWadWiz.exe to recompile your wad
 9. Navigate to your GameData folder and drop your modified Root.wad in
 10. Navigate to your installation bin folder and create a file named log.txt 
-11. Next, open the game bypassing the patch client by navigating to your installation bin folder in command prompt and typing the command "WizardGraphicalClient.exe -l login.us.wizard101.com 12000 -P 1 -K 1 -M 1 -EF_OVERFLOW -EF_UNDERFLOW -G log.txt" -- not all these paramaters are neccesary, but they worked, and have since remained my control paramaters for whatever tests I run, it just enables some backround debugging features. And will generate a log to your file your created earlier. 
+11. Next, open the game bypassing the patch client by navigating to your installation bin folder in command prompt and typing the command "WizardGraphicalClient.exe -l login.us.wizard101.com 12000 -G log.txt" 
 12. Once your logged in, create a new character. start the tutorial, when you reach the owl press the skip tutorial button, and for example if your code you wanted to run was
 
 Server("SetLevel", "120");
@@ -25,4 +25,4 @@ I have only been banned trying to modify stats. You can do other things and not 
 
 The game knows when your wad is corrupt and crashes when you try to continue with the tutorial, this is why I had to build it into the SkipTutorial() function and thus being one of only vulnerable positions to inject. 
 
-I would use a VPN, Mac Spoofer, and a HWID spoof doing this as it seems they've at least banned my Mac and IP after doing this on so many accounts to run my tests.
+I would use a VPN, Mac Spoofer, and a HWID spoof doing this as it seems they've at least banned my Mac and IP after doing this on so many accounts to run my tests. Ideally practice in a VM.
