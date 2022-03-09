@@ -8,7 +8,7 @@ This method is detected, and will get you banned. But you can still Execute your
 4. Navigate to the Tutorials folder, and then into the API folder.
 5. Open up TutorialUtility.lua and scroll down to the bottom.
 6. Find the SkipTutorial() function. 
-7. Your if statments to RCE with are at lines 797, 799 and 806.
+7. Your if statments to play with are at lines 797, 799 and 806.
 8. Use WizWadWiz.exe to recompile your wad
 9. Navigate to your GameData folder and drop your modified Root.wad in
 10. Navigate to your installation bin folder and create a file named log.txt 
@@ -25,4 +25,4 @@ I have only been banned trying to modify stats. You can do other things and not 
 
 The game knows when your wad is corrupt and crashes when you try to continue with the tutorial, this is why I had to build it into the SkipTutorial() function and thus being one of only vulnerable positions to inject. 
 
-I would use a VPN, Mac Spoofer, and a HWID spoof doing this as it seems they've at least banned my Mac and IP after doing this on so many accounts to run my tests. Ideally practice in a VM.
+I would use a VPN, Mac Spoofer, and a HWID spoof doing this as it seems they've at least banned my Mac and IP after doing this on so many accounts to run my tests. Ideally practice in a VM running a VPN.
