@@ -23,6 +23,6 @@ You would see the appropriate responses from the server in your chatbox, its pre
 
 I have only been banned trying to modify stats. You can do other things and not be banned. You can even modify the minigames code, and enable alot of debugging logs.
 
-The game knows when your wad is corrupt and crashes when you try to continue with the tutorial, this is why I had to build it into the SkipTutorial() function and thus being one of only vulnerable positions to inject. -- If you patch AutoBot there is another.
+The game knows when your wad is corrupt and crashes when you try to continue with the tutorial, this is why I had to build it into the SkipTutorial() function and thus being one of only vulnerable positions to inject.
 
 I would use a VPN, Mac Spoofer, and a HWID spoof doing this as it seems they've at least banned my Mac and IP after doing this on so many accounts to run my tests. Ideally practice in a VM running a VPN.
