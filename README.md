@@ -1,6 +1,8 @@
 # Wizard101CommandExecution
 Simple wizard101 Lua RCE method.
-This method is detected, and will get you banned. But you can still Execute your own Lua code, and communicate with the server with Lua. I recommend reading through other scripts in the scripts folder to get a better idea of what you can do.
+This method is detected in cases where you try to do anything sus, alot of things they do not check for though, and will get you banned. But you can still Execute your own Lua code, and communicate with the server with Lua. I recommend reading through other scripts in the scripts folder to get a better idea of what you can do.
+
+-- If anyone else out there Reversed Autobot, you can also LUA CE in Combat.lua, its preferable to at least delete the contents of Combat.lua or you will be banned when autobot executes the code.
 
 1. Backup Root.wad
 2. Create log.txt in bin folder
